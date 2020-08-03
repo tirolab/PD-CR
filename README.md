@@ -1,2 +1,2 @@
 # PD-CR
-Code for the "Primal-Dual for Classification with Rejection" merthod
+Python code for the "Primal-Dual for Classification with Rejection (PD-CR)" method
