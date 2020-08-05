@@ -14,3 +14,9 @@ Scipt "PD-CR_vs_PLSDA_and_RF.py" will compare the PD-CR classification method to
 "Script_rhoComputing.py" will give the result of the prediction performed with PD-CR for each sample using cross validation. 
 - The output "df_confidence" is a table comparing the predicted label for each sample "Ypred" to the original label "Yoriginal" and the confidence score for the prediction (CSP) "rho".
 - The histogram of the CSP for every sample, the curve representing the false discovery rate depending on the CSP threshold for classification with rejection and the curve representing the rejected samples rate depending on the CSP threshold for classification with rejection are also provided.
+
+
+The "Test_datasets" folder contains two metabolomics datasets :
+- "LUNG.csv" is a dataset provided on line by Mathe et al. This dataset includes metabolomics data concerning urine samples from 469 Non Small Cell Lung Cancer (NSCLC) patients prior to treatment and 536 controls collected from 1998 to 2007 in seven hospitals and in the Department of Motor Vehicles (DMV) from the greater Baltimore, Maryland area (doi: 10.1158/0008-5472.CAN-14-0109). The dataset available here was processed to be used with the provided scripts.
+- "BRAIN.csv" concerns a metabolomic study performed on frozen samples of glial tumors. The samples were provided by the university hospitals of Nice and Montpellier (France). Metabolite extracts were prepared and analyzed in the TIRO laboratory (Nice, France). With this dataset, the goal is to create a model that accurately disciminates IDH mutated (label 2) and IDH wild-type (label 1) glial tumors.
+
